@@ -4,6 +4,8 @@
 - Updated for Ubuntu 19.04
 
 
+This is to maintain a workable version of Ukuu as the original Ukuu goes to paid version. If you have money, please support [Ukuu](https://teejeetech.in/2019/01/20/ukuu-v19-01/) as possible as you can. If not, you can manually build with this repo.
+
 ### Ubuntu Kernel Update Utility (Ukuu)
 
 This is a tool for installing the latest mainline Linux kernel on Ubuntu-based distributions.
@@ -29,23 +31,12 @@ _Console Options_
 
 ### Installation
 
-#### Ubuntu-based Distributions (Ubuntu, Linux Mint, Elementary, etc)  
-Packages are available in Launchpad PPA for supported Ubuntu releases.
-Run the following commands in a terminal window:  
-
-    sudo apt-add-repository -y ppa:teejee2008/ppa
-    sudo apt-get update
-    sudo apt-get install ukuu
-
-Ukuu should not be used on older Ubuntu systems as upgrading to very new kernels can break older systems.
-
-
 #### Debian & Other Linux Distributions
 This application fetches kernels from [kernel.ubuntu.com](http://kernel.ubuntu.com/~kernel-ppa/mainline/) which are provided by Canonical and meant for installation on Ubuntu-based distributions. These should not be used on Debian and other non-Ubuntu distributions such as Arch Linux, Fedora, etc.
 
 
 ### Downloads & Source Code 
-Ukuu is written using Vala and GTK3 toolkit. Source code and binaries are available from the [GitHub project page](https://github.com/teejee2008/ukuu).
+Ukuu is written using Vala and GTK3 toolkit. Source code and binaries are available from the [GitHub project page](https://github.com/henrywoo/linux-kernel-updater).
 
 ### Build instruction
 
@@ -54,7 +45,7 @@ Ukuu is written using Vala and GTK3 toolkit. Source code and binaries are availa
  in a terminal window:  
 
     sudo apt-get install libgee-0.8-dev libjson-glib-dev libvte-2.91-dev valac
-    git clone https://github.com/teejee2008/ukuu.git
-    cd ukuu
+    git clone https://github.com/henrywoo/linux-kernel-updater.git
+    cd linux-kernel-updater
     make all
     sudo make install
