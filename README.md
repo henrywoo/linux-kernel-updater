@@ -1,4 +1,8 @@
-> A [paid version of Ukuu](https://teejeetech.in/tag/ukuu/) is now available with more features and a new UI. This repository contains source code for v18.9 and previous versions.
+
+# Latest updates
+
+- Updated for Ubuntu 19.04
+
 
 ### Ubuntu Kernel Update Utility (Ukuu)
 
