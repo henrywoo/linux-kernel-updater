@@ -3,8 +3,8 @@
 
 - Updated for Ubuntu 19.04
 
+![](img/19.04.png)
 
-This is to maintain a workable version of Ukuu as the original Ukuu goes to paid version. If you have money, please support [Ukuu](https://teejeetech.in/2019/01/20/ukuu-v19-01/) as possible as you can. If not, you can manually build with this repo.
 
 ### Ubuntu Kernel Update Utility (Ukuu)
 
@@ -49,3 +49,6 @@ Ukuu is written using Vala and GTK3 toolkit. Source code and binaries are availa
     cd linux-kernel-updater
     make all
     sudo make install
+
+
+> This is to maintain a workable version of Ukuu as the original Ukuu goes to paid version. If you have money, please support [Ukuu](https://teejeetech.in/2019/01/20/ukuu-v19-01/) as possible as you can. If not, you can manually build with this repo.
